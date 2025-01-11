@@ -6,65 +6,65 @@
     "GLOBAL": {
       "font": "Proggy Dotted",
       "fps": "120",
-      "height": "720",
+      "height": "844",
       "maximized": "0",
       "style": "0",
       "userScale": "2",
-      "width": "1280",
-      "xpos": "193",
+      "width": "1831",
+      "xpos": "30",
       "ypos": "106"
     }
   },
   "Window": {
     "###/FMSInfo": {
       "Collapsed": "0",
-      "Pos": "60,60",
-      "Size": "181,167"
+      "Pos": "25,516",
+      "Size": "217,194"
     },
     "###/SmartDashboard/Field": {
       "Collapsed": "0",
-      "Pos": "166,24",
-      "Size": "740,373"
+      "Pos": "174,47",
+      "Size": "740,388"
     },
     "###FMS": {
       "Collapsed": "0",
-      "Pos": "4,414",
-      "Size": "169,184"
+      "Pos": "473,449",
+      "Size": "202,214"
     },
     "###Joysticks": {
       "Collapsed": "0",
-      "Pos": "250,465",
-      "Size": "796,189"
+      "Pos": "241,613",
+      "Size": "976,219"
     },
     "###Keyboard 0 Settings": {
       "Collapsed": "0",
-      "Pos": "369,59",
+      "Pos": "1267,273",
       "Size": "300,560"
     },
     "###NetworkTables": {
       "Collapsed": "0",
-      "Pos": "399,253",
-      "Size": "750,236"
+      "Pos": "932,27",
+      "Size": "750,238"
     },
     "###NetworkTables Info": {
       "Collapsed": "1",
-      "Pos": "250,129",
+      "Pos": "238,457",
       "Size": "750,145"
     },
     "###Other Devices": {
       "Collapsed": "0",
-      "Pos": "1025,20",
-      "Size": "250,695"
+      "Pos": "1617,129",
+      "Size": "185,709"
     },
     "###System Joysticks": {
       "Collapsed": "0",
-      "Pos": "205,308",
-      "Size": "192,218"
+      "Pos": "957,345",
+      "Size": "232,254"
     },
     "###Timing": {
       "Collapsed": "0",
-      "Pos": "5,150",
-      "Size": "135,219"
+      "Pos": "4,192",
+      "Size": "162,246"
     },
     "Debug##Default": {
       "Collapsed": "0",
@@ -74,7 +74,7 @@
     "Robot State": {
       "Collapsed": "0",
       "Pos": "7,20",
-      "Size": "92,116"
+      "Size": "109,134"
     }
   }
 }
