@@ -19,7 +19,7 @@
     "###/FMSInfo": {
       "Collapsed": "0",
       "Pos": "25,516",
-      "Size": "217,194"
+      "Size": "202,194"
     },
     "###/SmartDashboard/Field": {
       "Collapsed": "0",
@@ -29,7 +29,7 @@
     "###FMS": {
       "Collapsed": "0",
       "Pos": "473,449",
-      "Size": "202,214"
+      "Size": "336,158"
     },
     "###Joysticks": {
       "Collapsed": "0",
@@ -74,7 +74,7 @@
     "Robot State": {
       "Collapsed": "0",
       "Pos": "7,20",
-      "Size": "109,134"
+      "Size": "118,134"
     }
   }
 }
