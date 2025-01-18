@@ -114,7 +114,6 @@ public class RobotContainer
 
   Command driveSetpointGenSim = drivebase.driveWithSetpointGeneratorFieldRelative(driveDirectAngleSim);
 
-  private final SendableChooser<Command> autoChooser;
 
   /**
    * The container for the robot. Contains subsystems, OI devices, and commands.
@@ -182,17 +181,6 @@ public class RobotContainer
   {
     // An example command will be run in autonomous
     return drivebase.getAutonomousCommand("Auton Test");
-
-    return autoChooser.getSelected();
-    {
-    
-      // Build an auto chooser. This will use Commands.none() as the default option.
-      autoChooser = AutoBuilder.buildAutoChooser();
-
-      // Another option that allows you to specify the default auto by its name
-      // autoChooser = AutoBuilder.buildAutoChooser("My Default Auto");
-  
-      SmartDashboard.putData("Auto Chooser", autoChooser);}
     
   }
 
