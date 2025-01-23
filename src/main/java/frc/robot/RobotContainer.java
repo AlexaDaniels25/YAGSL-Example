@@ -5,6 +5,8 @@
 package frc.robot;
 
 import com.pathplanner.lib.auto.NamedCommands;
+import com.pathplanner.lib.events.EventTrigger;
+
 import edu.wpi.first.math.geometry.Pose2d;
 import edu.wpi.first.math.geometry.Rotation2d;
 import edu.wpi.first.math.geometry.Translation2d;
@@ -16,7 +18,10 @@ import edu.wpi.first.wpilibj2.command.Commands;
 import edu.wpi.first.wpilibj2.command.button.CommandXboxController;
 import edu.wpi.first.wpilibj2.command.button.Trigger;
 import frc.robot.Constants.OperatorConstants;
+import frc.robot.commands.swervedrive.TestAuto;
 import frc.robot.subsystems.swervedrive.SwerveSubsystem;
+import frc.robot.subsystems.swervedrive.Test2;
+
 import java.io.File;
 import swervelib.SwerveInputStream;
 
@@ -91,8 +96,13 @@ public class RobotContainer
   {
     // Configure the trigger bindings
     configureBindings();
+    TestAuto testCommand = new TestAuto("Byting Command");
+    TestAuto testEventMarker = new TestAuto("Byting Event Marker");
     DriverStation.silenceJoystickConnectionWarning(true);
-    NamedCommands.registerCommand("test", Commands.print("I EXIST"));
+    //NamedCommands.registerCommand("Test", Commands.print("I EXIST"));
+    NamedCommands.registerCommand("BytingCommand", testCommand);
+    new EventTrigger("BytingEventMarker").onTrue(testEventMarker);
+
   }
 
   /**
@@ -163,7 +173,7 @@ public class RobotContainer
   public Command getAutonomousCommand()
   {
     // An example command will be run in autonomous
-    return drivebase.getAutonomousCommand("New Auto");
+    return drivebase.getAutonomousCommand("Auto Sim Test");
   }
 
   public void setMotorBrake(boolean brake)

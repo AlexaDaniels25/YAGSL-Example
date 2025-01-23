@@ -16,12 +16,28 @@
     },
     {
       "anchor": {
-        "x": 4.962909836065574,
-        "y": 1.6094774590163934
+        "x": 7.22858606557377,
+        "y": 1.89718237704918
       },
       "prevControl": {
-        "x": 4.711168032786887,
-        "y": 1.5255635245901646
+        "x": 8.081211577868853,
+        "y": 2.7902663934426224
+      },
+      "nextControl": {
+        "x": 6.3759605532786905,
+        "y": 1.0040983606557379
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 3.9319672131147536,
+        "y": 5.121875
+      },
+      "prevControl": {
+        "x": 3.6802254098360665,
+        "y": 5.037961065573771
       },
       "nextControl": null,
       "isLocked": false,
@@ -33,10 +49,15 @@
   "pointTowardsZones": [],
   "eventMarkers": [
     {
-      "name": "Test",
-      "waypointRelativePos": 0.6595441595441629,
+      "name": "BytingEventMarker",
+      "waypointRelativePos": 0.9848053181386345,
       "endWaypointRelativePos": null,
-      "command": null
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "BytingCommand"
+        }
+      }
     }
   ],
   "globalConstraints": {
